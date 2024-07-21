@@ -26,7 +26,7 @@ asyncFunction(arg1, arg2).then(result => console.log(result));
 
 ### ES Modules
 ```javascript
-import { promisifySyncFunction, waitCallback, waitOnce } from 'my-library';
+import { promisifySyncFunction, waitCallback, waitOnce } from '@sagifire/async-utils';
 
 // Example usage
 const asyncFunction = promisifySyncFunction(syncFunction);
