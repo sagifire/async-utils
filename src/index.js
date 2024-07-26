@@ -7,7 +7,7 @@
 export const promisifySyncFunction = (syncFunction) => (...fArgs) => {
     return new Promise((resolve, reject) => {
         const callbackHandler = (error, ...cArgs) => {
-            if (error) reject(error)
+            if (error) return reject(error)
             resolve (cArgs)
         }
         syncFunction(...fArgs, callbackHandler)
