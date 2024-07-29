@@ -1,6 +1,6 @@
 {
   "name": "@sagifire/async-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A NodeJS library providing utilities for managing and simplifying asynchronous code tasks",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
