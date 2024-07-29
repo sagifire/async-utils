@@ -1,6 +1,6 @@
 {
   "name": "@sagifire/async-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A NodeJS library providing utilities for managing and simplifying asynchronous code tasks",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -17,11 +17,13 @@
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "@babel/register": "^7.24.6",
+    "@types/node": "^22.0.0",
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
     "sinon": "^18.0.0"
   },
   "type": "module",
+  "types": "types.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sagifire/async-utils.git"
